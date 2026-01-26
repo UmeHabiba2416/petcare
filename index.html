@@ -2,39 +2,33 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Home | Pet Care</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Care | Home</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<header>
-    <h1>Pet Care Center</h1>
-    <nav>
+<header class="header">
+    <h1>Pet Care</h1>
+    <div class="menu-toggle" id="menuToggle">☰</div>
+    <nav id="navbar">
         <a href="index.html">Home</a>
-        <a href="services.html">Services</a>
+        <a href="about.html">About</a>
         <a href="contact.html">Contact</a>
     </nav>
 </header>
 
-<main>
-    <h2>Welcome to Pet Care Center</h2>
-    <p>We provide love, care, and professional services for your pets.</p>
+<main class="fade-in">
+    <h2 class="slide-up" id="welcomeText">Welcome to Pet Care Center</h2>
+    <p>We care for your pets like family 🐶🐱</p>
 
-    <div class="card-container">
-        <div class="card">
-            <img src="https://media.istockphoto.com/id/1252455620/photo/golden-retriever-dog.jpg" alt="Dog">
-            <h3>Dog Care</h3>
-            <p>Complete grooming and health care.</p>
-        </div>
-
-        <div class="card">
-            <img src="https://img.freepik.com/free-photo/little-cat-sitting-grass_1150-17019.jpg" alt="Cat">
-            <h3>Cat Care</h3>
-            <p>Gentle and professional services.</p>
-        </div>
+    <div class="image-box">
+        <img src="https://media.istockphoto.com/id/1252455620/photo/golden-retriever-dog.jpg" alt="Dog">
+        <img src="https://img.freepik.com/free-photo/little-cat-sitting-grass_1150-17019.jpg" alt="Cat">
     </div>
 
-    <button onclick="goToServices()">View Services</button>
+    <button id="changeTextBtn">Change Text</button>
+    <button id="themeBtn">Toggle Theme</button>
 </main>
 
 <footer>
