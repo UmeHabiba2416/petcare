@@ -1,100 +1,135 @@
-🐾 Pet Care Website
+<!-- Animated Title -->
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?size=30&duration=4000&color=38B2AC&center=true&vCenter=true&width=700&lines=🐾+Pet+Care+Website;Responsive+%26+Animated+Website;HTML+CSS+JavaScript+Project" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/HTML5-orange?style=for-the-badge&logo=html5">
+  <img src="https://img.shields.io/badge/CSS3-blue?style=for-the-badge&logo=css3">
+  <img src="https://img.shields.io/badge/JavaScript-yellow?style=for-the-badge&logo=javascript">
+</p>
+
+---
+
+## 📌 Project Overview
+
+The **Pet Care Website** is a **3-page responsive static website** designed to demonstrate:
+- Frontend fundamentals
+- UI animations
+- DOM manipulation
+- Form handling on static hosting
+
+This project is suitable for **academic submission**, **GitHub Pages hosting**, and **viva demonstration**.
+
+---
+
+## 🌐 Live Website
+
+🔗 **GitHub Pages Link:**  
+👉 *(Add your live URL here)*
+
+---
+
+## 📁 Folder Structure
 
 
 
-
-
-📌 Project Description
-
-This is a simple 3-page Pet Care Website developed using HTML, CSS, and JavaScript.
-The website provides information about pet care services and allows easy navigation between pages using a navigation bar and buttons.
-
-The project demonstrates basic web development concepts such as:
-
-Page navigation
-
-Responsive design
-
-Card-based layout
-
-JavaScript button functionality
-
-📄 Pages Included
-
-Home Page (index.html)
-
-Introduction to Pet Care Center
-
-Pet images displayed in cards
-
-Button to navigate to Services page
-
-Services Page (services.html)
-
-List of pet care services
-
-Service cards with images
-
-Button to book a service (alert message)
-
-Contact Page (contact.html)
-
-Contact details
-
-Pet image card
-
-Button to return to Home page
-
-🛠 Technologies Used
-
-HTML5 – Structure of the website
-
-CSS3 – Styling, layout, responsiveness, and cards
-
-JavaScript – Button functionality and page navigation
-
-📁 Project Structure
-Pet-Care-Website/
+pet-care-website/
 │── index.html
-│── services.html
+│── about.html
 │── contact.html
 │── style.css
 │── script.js
 │── README.md
 
-✨ Features
 
-Responsive layout (works on mobile and desktop)
+---
 
-Proper header, navigation bar, main content, and footer
+## ✨ Features
 
-Card-based design for images and content
+✅ Responsive layout (mobile + desktop)  
+✅ Proper header, footer & navigation bar  
+✅ Mobile navbar toggle (hamburger menu)  
+✅ Hover, fade & slide animations  
+✅ Responsive card layout using CSS Grid  
+✅ Contact form with HTML5 validation  
+✅ Animated success message on submission  
+✅ Formspree integration (no backend needed)  
+✅ Dark mode toggle  
+✅ GitHub Pages compatible  
 
-Working buttons using JavaScript
+---
 
-Clean and simple UI
+## 🎨 Animations Used
 
-▶ How to Run the Project
+| Animation | Description |
+|---------|-------------|
+| Hover | Buttons & cards scale smoothly |
+| Fade In | Page content appears on load |
+| Slide Up | Headings slide into view |
+| Success | Animated form submission message |
 
-Download or copy all project files into one folder
+---
 
-Open index.html in any web browser
+## 📩 Contact Form Handling
 
-Use the navigation bar or buttons to move between pages
+🔹 This website is **static**, so form responses are handled using **Formspree**.
 
-🎯 Purpose of Project
+✔ No backend/server required  
+✔ Messages are sent directly to email  
+✔ Works perfectly with GitHub Pages  
 
-This project is created for academic/learning purposes to understand:
+---
 
-Website structure
+## 🧠 JavaScript DOM Manipulation
 
-Page linking
+JavaScript is used for:
+- Mobile navbar toggle
+- Theme (dark/light) switching
+- Text content updates
+- Success message animation
+- Basic user interaction handling
 
-Responsive UI design
+Example:
+```js
+document.body.classList.toggle("dark-theme");
 
-Basic JavaScript interactions
+📱 Responsive Design
 
-👤 Author
+CSS Grid for cards
 
-Student Name: (Add your name here)
-Institute: FAST NUCES
+Media queries for mobile screens
+
+Hamburger navigation for small devices
+
+🛠 Tools & Technologies
+
+HTML5
+
+CSS3
+
+JavaScript
+
+VS Code
+
+Git & GitHub
+
+GitHub Pages
+
+Formspree
+
+🎓 Learning Outcomes
+
+✔ Frontend page structuring
+✔ Responsive UI design
+✔ CSS animations
+✔ DOM manipulation
+✔ Static website hosting
+✔ Real-world form handling
+
+👩‍💻 Author
+
+🎓 Student @ FAST NUCES
+📚 Web Development Practice Project
+
+<p align="center"> <img src="https://readme-typing-svg.herokuapp.com?size=18&duration=3000&color=2C7A7B&center=true&vCenter=true&width=500&lines=Thank+You+for+Visiting+🐾;Happy+Coding+💻" /> </p> ```
