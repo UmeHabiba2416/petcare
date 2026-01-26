@@ -2,42 +2,40 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Services | Pet Care</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Care | About</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<header>
-    <h1>Pet Care Center</h1>
-    <nav>
+<header class="header">
+    <h1>Pet Care</h1>
+    <div class="menu-toggle" id="menuToggle">☰</div>
+    <nav id="navbar">
         <a href="index.html">Home</a>
-        <a href="services.html">Services</a>
+        <a href="about.html">About</a>
         <a href="contact.html">Contact</a>
     </nav>
 </header>
 
-<main>
-    <h2>Our Services</h2>
+<main class="fade-in">
+    <h2 class="slide-up">Our Services</h2>
 
-    <div class="card-container">
-        <div class="card">
-            <img src="https://121clicks.com/wp-content/uploads/2022/04/dog_grooming_haircuts_01.jpg" alt="Grooming">
-            <h3>Pet Grooming</h3>
-            <p>Clean, safe and hygienic grooming.</p>
-        </div>
-
-        <div class="card">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxpwXB8hFeUwDfFlDVWnBqwNGiK_Wx51qxRg&s" alt="Rabbit Care">
-            <h3>Pet Training</h3>
-            <p>Professional training sessions.</p>
-        </div>
+    <div class="image-box">
+        <img src="https://121clicks.com/wp-content/uploads/2022/04/dog_grooming_haircuts_01.jpg" alt="Grooming">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxpwXB8hFeUwDfFlDVWnBqwNGiK_Wx51qxRg" alt="Pet Care">
     </div>
 
-    <button onclick="showServiceMessage()">Book a Service</button>
+    <ul>
+        <li>Pet Grooming</li>
+        <li>Veterinary Care</li>
+        <li>Pet Training</li>
+        <li>Pet Boarding</li>
+    </ul>
 </main>
 
 <footer>
-    <p>© 2026 Pet Care Center</p>
+    <p>Love & Care for Every Pet 🐾</p>
 </footer>
 
 <script src="script.js"></script>
